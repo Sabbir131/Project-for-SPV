@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #577e89;
+
+  }
+  
+  #app {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    padding: 24px;
+    gap: 24px;
+  }
+  
+  .note {
+    height: 200px;
+    box-sizing: border-box;
+    padding: 16px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 0 7px rgb(144, 119, 119);
+    resize: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+  }
+  
+  .add-note {
+    height: 200px;
+    border: none;
+    outline: none;
+    background: rgb(170, 139, 139);
+    border-radius: 2px;
+    font-size: 120px;
+    color: rgb(118, 193, 197, 0.5);
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .add-note:hover {
+    background: rgb(117, 88, 88);
+  }
+  
